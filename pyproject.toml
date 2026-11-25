@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "selaudit"
+version = "1.0.0"
+description = "Two diagnostics for per-round candidate selection: audit resolution and break-even win rate"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "selaudit authors"}]
+keywords = ["test-time adaptation", "model selection", "evaluation", "reproducibility"]
+dependencies = ["numpy>=1.23"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+selaudit = "selaudit.__main__:main"
+
+[tool.setuptools]
+packages = ["selaudit"]
+
+[project.urls]
+Homepage = "https://github.com/rzyang30/selaudit"
+Repository = "https://github.com/rzyang30/selaudit"

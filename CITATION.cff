@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use selaudit, please cite the accompanying paper and this archive."
+title: "selaudit: audit resolution and break-even diagnostics for per-round selection"
+type: software
+authors:
+  - name: "The selaudit authors"
+version: "1.0.0"
+date-released: "2026-11-25"
+license: MIT
+repository-code: "https://github.com/rzyang30/selaudit"
+url: "https://github.com/rzyang30/selaudit/releases/tag/v1.0.0"
+abstract: "Two diagnostics for per-round candidate selection: paired audit resolution and break-even win rate."
+keywords:
+  - test-time adaptation
+  - model selection
+  - evaluation
+  - reproducibility
